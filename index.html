@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+  <head>
+    <base href="/">
+    <title>Angular 2 project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//cdn.auth0.com/js/lock-8.1.min.js"></script>
+    <script src="systemjs.config.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/node_modules/font-awesome/css/font-awesome.min.css" />
+
+
+    <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script data-require="bootstrap@3.1.1" data-semver="3.1.1" 
+          src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script data-require="marked@*" data-semver="0.3.1" 
+          src="http://cdnjs.cloudflare.com/ajax/libs/marked/0.3.1/marked.js"></script>
+    <script src="https://rawgit.com/lodev09/bootstrap-markdown/master/js/bootstrap-markdown.js"></script>
+    <script src="https://rawgit.com/lodev09/jquery-filedrop/master/jquery.filedrop.js"></script>
+    <script src="https://rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js"></script>
+
+    <link rel="stylesheet" href="https://rawgit.com/lodev09/bootstrap-markdown/master/css/bootstrap-markdown.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <!--<script src="https://cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' 
+        rel='stylesheet' type='text/css'>
+    <script src="https://cdn.ckeditor.com/4.5.11/full/ckeditor.js"></script>
+	</head>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script> 
+  </head>
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+</html>
